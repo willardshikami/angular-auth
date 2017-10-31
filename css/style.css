@@ -333,11 +333,66 @@ ABOUT US
     color: #F2F2F2;
 }
 
+.about-line{
+    width: 30px;
+    border: 1px solid #FFFFFF;
+}
+
 .about-us img{
+    padding-top: 70px;
+}
+
+.about-us h4{
+    font-size: 14px;
+    padding-top: 0;
+    margin-top: 0;
+    text-transform: uppercase;
 }
 
 .about-us p{
-    line-height: 25px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/*
+==========================================
+WHY HEALTHIX
+==========================================
+*/
+
+.testimonials {
+	background-color: #0eb152;;
+	position: relative;
+	text-align: center;
+}
+.testimonials blockquote {
+	border: 0;
+	margin: 0;
+	padding: 100px 15%;
+}
+.testimonials h1 {
+	color: #FFF;
+	font-size: 23px;
+	font-weight: 300;
+}
+.testimonials p {
+	color: #FFF;
+	display: block;
+	font-size: 13px;
+	font-style: normal;
+	letter-spacing: 2px;
+	font-weight: 400;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+.flex-control-nav {
+	margin-top: 2%;
+	bottom: none!important;
+	position: relative!important;
+	right: 0;
+	text-align: center;
+	width: 100%!important;
+	z-index: 100;
 }
 
 /*==========================================

@@ -26,6 +26,11 @@
     $.localScroll();
 	
 	
+// Flexslider
+	$('.flexslider').flexslider({
+		animation: "fade",
+		directionNav: false,
+	});
 	
 	
 //    /*---------------------------------------------*
