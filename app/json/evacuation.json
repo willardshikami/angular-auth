@@ -1,0 +1,72 @@
+[
+ {
+   "name": "AMREF Flying Doctors",
+   "city": "",
+   "physical_address": "",
+   "tel1": "(+254) 6992000",
+   "tel2": "(+254) 0722 399 399"
+ },
+ {
+   "name": "Ambulance Rescue Team ALS & Air",
+   "city": "",
+   "physical_address": "",
+   "tel1": "(+254) 0790 400570",
+   "tel2": ""
+ },
+ {
+   "name": "Avenue Rescue Services",
+   "city": "",
+   "physical_address": "",
+   "tel1": "(+254) 0722 570711",
+   "tel2": ""
+ },
+ {
+   "name": "Intensive Care Air Ambulance Ltd",
+   "city": "",
+   "physical_address": "",
+   "tel1": "(+254) 0733 600600",
+   "tel2": "(+254) 0722 600600"
+ },
+ {
+   "name": "Provide International",
+   "city": "",
+   "physical_address": "",
+   "tel1": "(+254) 0733 758028",
+   "tel2": "(+254) 0722 758028"
+ },
+ {
+   "name": "St John Ambulance",
+   "city": "",
+   "physical_address": "",
+   "tel1": "(+254) 0721 611555", 
+   "tel2": ""
+ },
+ {
+   "name": "Pathway International",
+   "city": "",
+   "physical_address": "",
+   "tel1": "(+254) 020 4931122",
+   "tel2": "(+254) 0721 850916"
+ },
+ {
+   "name": "City Council Ambulance",
+   "city": "Nairobi",
+   "physical_address": "",
+   "tel1": "(+254) 020 2224281",
+   "tel2": ""
+ },
+ {
+   "name": "Redcross Ambulance",
+   "city": "",
+   "physical_address": "",
+   "tel1": "(+254) 0700 395395",
+   "tel2": "(+254) 0738 395395 or 1199"
+ },
+ {
+   "name": "West Ambulance Services",
+   "city": "Nairobi",
+   "physical_address": "Ngong Road",
+   "tel1": "(+254) 020 2320705",
+   "tel2": ""
+ }
+]

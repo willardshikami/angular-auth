@@ -1,0 +1,16 @@
+[
+    {
+        "service": "pediatry",
+        "day":"Monday, Wednesday",
+        "time":"2 pm - 5 pm, 5 pm - 8pm, 10 am - 1 pm",
+        "venue":"Main Hospital",
+        "doctors":"Dr Oringe, Dr Ngundo"
+    },
+    {
+        "service": "surgery",
+        "day":"Wednesday, Saturday",
+        "time":"2 pm - 5 pm, 5 pm - 8pm, 10 am - 1 pm",
+        "venue":"Plaza",
+        "doctors":"Dr Ngotho, Dr Miano"
+    }
+]

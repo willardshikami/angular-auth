@@ -1,0 +1,21 @@
+[
+     {
+        "service" : "Peadiatry",
+        "day": "Monday, Tuesday, Thursday",
+        "time": "2 pm - 5 pm, 5 pm - 8 pm, 10 am - 1 pm",
+        "venue": "Plaza",
+        "availability": "24 hours"
+        },
+
+        {
+        "service" : "Surgery",
+        "day": "Monday, Tuesday, Thursday",
+        "time": "2 pm - 5 pm, 5 pm - 8 pm, 10 am - 1 pm",
+        "venue": "Main hospital",
+        "availability": "on Appointment"
+        }
+
+        
+
+]
+    

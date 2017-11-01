@@ -1,0 +1,34 @@
+[
+    {
+        "service": "Outpatient",
+        "availability": "24 hours"
+    },
+    {
+        "service": "Laboratory",
+        "availability": "24 hours"
+    },
+    {
+        "service": "Physiotherapy",
+        "availability": "Appointment"
+    },
+    {
+        "service": "Paediatrics",
+        "availability": "Appointment"
+    },
+    {
+        "service": "Surgery",
+        "availability": "Appointment"
+    },
+    {
+        "service": "Ambulance",
+        "availability": "24 hours"
+    },
+    {
+        "service": "Pharmacy",
+        "availability": "24 hours"
+    },
+    {
+        "service": "Ultra sound",
+        "availability": "24 hours"
+    }
+]

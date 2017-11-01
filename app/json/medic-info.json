@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Dr. Eva Patel",
+        "specialization": "General doctor",
+        "email": "emailinfo@gmail.com",
+        "number": "0721123456"
+    },
+
+    {
+        "name": "Dr. Shah Desai",
+        "specialization": "Orthopaedia",
+        "email": "emailinfo@gmail.com",
+        "number": "0721123456"
+    },
+
+    {
+        "name": "Dr. Michael Kanyi",
+        "specialization": "Gynaecology",
+        "email": "emailinfo@gmail.com",
+        "number": "0721123456"
+    },
+
+    {
+        "name": "Dr. Peter Opiyo",
+        "specialization": "Physiotherapy",
+        "email": "emailinfo@gmail.com",
+        "number": "0721123456"
+    },
+
+    {
+        "name": "Dr. Farrah Avdalla",
+        "specialization": "Opthalmology",
+        "email": "emailinfo@gmail.com",
+        "number": "0721123456"
+    },
+
+    {
+        "name": "Dr. Naftali Mohamed",
+        "specialization": "Paediatrician",
+        "email": "emailinfo@gmail.com",
+        "number": "0721123456"
+    }
+]

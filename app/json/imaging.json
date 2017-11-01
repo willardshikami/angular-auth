@@ -1,0 +1,58 @@
+[
+ {
+   "name": "Z O",
+   "city": "Nakuru",
+   "physical_address": "Mburu Gichua Road ",
+   "tel1": "(+254) 0734 551809",
+   "tel2": ""
+ },
+ {
+   "name": "Ranalo Medical Imaging Centre",
+   "city": "Nakuru",
+   "physical_address": "Mburu Gichua Road",
+   "tel1": "(+254) 051 2212580",
+   "tel2": ""
+ },
+ {
+   "name": "Medical Imaging Services",
+   "city": "Nairobi",
+   "physical_address": "Ngong Road",
+   "tel1": "(+254) 0735 049687",
+   "tel2": "(+254) 0720 449060"
+ },
+ {
+   "name": "Afya Centre X-Ray Services Ltd",
+   "city": "Nairobi",
+   "physical_address": "Tom Mboya Street",
+   "tel1": "(+254) 020 2242663",
+   "tel2": ""
+ },
+ {
+   "name": "Machakos Imaging X-Ray Centre",
+   "city": "Machakos",
+   "physical_address": "",
+   "tel1": "(+254) 044 21246",
+   "tel2": ""
+ },
+ {
+   "name": "Siami Health Care Limited",
+   "city": "Machakos",
+   "physical_address": "Kitui Road",
+   "tel1": "(+254) 0788 704084",
+   "tel2": "(+254) 0704 849377"
+ },
+ {
+   "name": "Upper Hill Radiology Centre",
+   "city": "Nairobi",
+   "physical_address": "5th Ngong Avenue",
+   "tel1": "(+254) 020 2712229",
+   "tel2": "(+254) 0723 906913"
+ },
+ {
+   "name": "City X-Ray Services",
+   "city": "Nairobi",
+   "physical_address": "Moi Avenue",
+   "tel1": "(+254) 020 2241105",
+   "tel2": ""
+ }
+]

@@ -1,0 +1,122 @@
+[
+ {
+   "name": "Rol Medical Laboratories Ltd",
+   "city": "Nakuru",
+   "physical_address": "Kijabe Road",
+   "tel1": "+(254) 051 2216697",
+   "tel2": ""
+ },
+ {
+   "name": "Crater X-Ray Clinic",
+   "city": "Nakuru",
+   "physical_address": "Kijabe Road",
+   "tel1": "(+254) 051 2216427",
+   "tel2": "(+254) 0734-032604"
+ },
+ {
+   "name": "Bio-Analytical Medical Laboratories",
+   "city": "Nairobi",
+   "physical_address": "Tom Mboya Street",
+   "tel1": "(+254) 0733 787427",
+   "tel2": ""
+ },
+ {
+   "name": "Dynapath Medical Laboratores",
+   "city": "Kisii",
+   "physical_address": "Hospital Road",
+   "tel1": "(+254) 0733 843454",
+   "tel2": ""
+ },
+ {
+   "name": "Embu Medical Laboratories",
+   "city": "Embu",
+   "physical_address": "Mama Ngina Street",
+   "tel1": "",
+   "tel2": ""
+ },
+ {
+   "name": "Express Medical Laboratories Ltd",
+   "city": "Nairobi",
+   "physical_address": "Ralph Bunche Road",
+   "tel1": "(+254) 0721 177823",
+   "tel2": ""
+   
+ },
+ {
+   "name": "Search Medical Laboratories Ltd",
+   "city": "Nairobi",
+   "physical_address": "Jabavu Road ",
+   "tel1": "(+254) 0725 346897",
+   "tel2": ""
+ },
+ {
+   "name": "Scitech Diagnostics Ltd",
+   "city": "Nairobi",
+   "physical_address": "Lang’ata Road",
+   "tel1": "(+254) 0203555846",
+   "tel2": "(+254) 0714 062145"
+ },
+ {
+   "name": "Medanta Africare Clinic (Diagnolabs)",
+   "city": "Nakuru",
+   "physical_address": "Kenyatta Avenue",
+   "tel1": "(+254) 0737 745334",
+   "tel2": "(+254) 0719 408058"
+ },
+ {
+   "name": "Pathcare Kenya",
+   "city": "Nairobi",
+   "physical_address": "Limuru Road",
+   "tel1": "(+254) 020-3753416",
+   "tel2": "(+254) 0722 203074"
+ },
+ {
+   "name": "Lancet Kenya",
+   "city": "Nairobi",
+   "physical_address": "Ngong Road",
+   "tel1": "(+254) 0736 493100",
+   "tel2": "(+254) 0729 111110"
+ },
+ {
+   "name": "Nanyuki Diagnostic Centre",
+   "city": "Nanyuki",
+   "physical_address": "Hospital Road",
+   "tel1": "(+254) 062 2031924",
+   "tel2": "(+254) 0710-720692"
+ },
+ {
+   "name": "Labnostix Medical Laboratory",
+   "city": "Bungoma",
+   "physical_address": "",
+   "tel1": "(+254) 055 30164",
+   "tel2": ""
+ },
+ {
+   "name": "Bora Biotech Limited",
+   "city": "Nairobi",
+   "physical_address": "Kaplagat Road",
+   "tel1": "(+254) 020 2040961",
+   "tel2": "(+254) 020 4185090"
+ },
+ {
+   "name": "Prime Diagnostic Centre",
+   "city": "Nairobi",
+   "physical_address": "Mara Road",
+   "tel1": "(+254) 0736 708260",
+   "tel2": "(+254) 0716 381632"
+ },
+ {
+   "name": "Sunshine Medical Diagnostic Centre",
+   "city": "Nairobi",
+   "physical_address": "Murang’a Road",
+   "tel1": "(+254) 020 3520286",
+   "tel2": "(+254) 0713 373119"
+ },
+ {
+   "name": "Unique Imaging Services",
+   "city": "Nairobi",
+   "physical_address": "Harambee Avenue",
+   "tel1": "(+254) 020 2189906",
+   "tel2": "(+254) 0722 868360"
+ }
+]

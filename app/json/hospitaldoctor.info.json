@@ -1,0 +1,38 @@
+[
+    {
+        "name": "EVA PATEL",
+        "specialization": "GENERAL DOCTOR",
+        "email": "emailinfo@gmail.com",
+        "phone": "0721123543"
+    },
+    {
+        "name": "DR. SHAH DESAI",
+        "specialization": "ORTHOPAEDIA",
+        "email": "emailinfo@gmail.com",
+        "phone": "0721123456"
+    },
+    {
+        "name": "DR. MICHAEL KANYI",
+        "specialization": "GYNAECOLOGY",
+        "email": "emailinfo@gmail.com",
+        "phone": "0721123456"
+    },
+    {
+        "name": "DR. PETER OPIYO",
+        "specialization": "PHYSIOTHERAPY",
+        "email": "emailinfo@gmail.com",
+        "phone": "0721123456"
+    },
+    {
+        "name": "DR. FARRAH ABDALLA",
+        "specialization": "OPTHALMOLOGY",
+        "email": "emailinfo@gmail.com",
+        "phone": "0721123456"
+    },
+    {
+        "name": "DR. NAFTALI MOHAMED",
+        "specialization": "PAEADIATRICIAN",
+        "email": "emailinfo@gmail.com",
+        "phone": "0721123456"
+    }
+]

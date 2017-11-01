@@ -1,0 +1,51 @@
+[
+   {
+      "name": "Easy DNA",
+      "description": "This company has its office in Nairobi. It has carried out over 300,000 DNA tests. It uses the 21 genetic markers while carrying out the genetic tests. The cost of testing the alleged father and the child is KES 24,000. The results can be received within a period of 5-7 working days. Contacts info@easydnakenya.com and the phone number 0722622166.",
+	  "postal_address" : null,
+	  "telephone" : null,
+     "website": "http://www.easydnakenya.com/"
+   },
+   {
+      "name": "British embassy – Nairobi",
+      "description": "They provide DNA testing when one is emigrating from Kenya. The turnaround time may take 3-5 working days and for complex cases it might take 5-10 working days. They use up to 68 DNA markers to carry out the tests.",
+	  "postal_address" : null,
+	  "telephone" : null,
+     "website": null
+   },
+   {
+      "name": "Bioinformatics institute of Kenya(KIBS)",
+      "description": "This company uses 24 genetic markers in the DNA of the child, father and mother. KIBS provides both online and telephone customer services 24/7. The results are released within 5 working days. The rates are for the 24 marker test for a father and a child is a total of KES 20,000. For the 41-marker test for the alleged father and the child is KES 30,000. Payment is made through MPesa paybill or the bank account. Contacts info@kibs.co.ke and phone number +2547163352266.",
+	  "postal_address" : null,
+	  "telephone" : null,
+     "website": "http://www.kibs.co.ke/"
+   },
+   {
+   	"name": "Lancet laboratories",
+   	"description": "Main Laboratory in Upper Hill Nairobi",
+	  "postal_address" : null,
+	  "telephone" : null, 
+     "website": "http://lancet.co.ke/"
+   },
+   {
+   	"name": "SEPIDNA Kenya",
+   	"description": "The company has it office in Westlands, Nairobi. The DNA is carried out on 16 genetic markers. The cost of the paternity testing starts from KES 39, 9930. The turnaround time is just 5-7 working days though they express testing can be offered at will and it only takes two days. Contacts silveredgekenya@gmail.com and the phone number +254704967808.",
+	  "postal_address" : null,
+	  "telephone" : null,
+     "website": null  
+   },
+   {
+   	"name": "Pathcare Kenya",
+   	"description": "The company has it office in Westlands, Nairobi. The DNA is carried out on 16 genetic markers. The cost of the paternity testing starts from KES 39, 9930. The turnaround time is just 5-7 working days though they express testing can be offered at will and it only takes two days. Contacts silveredgekenya@gmail.com and the phone number +254704967808.",
+	"postal_address": "Regal Plaza Limuru Road 12560-00606 Nairobi, Kenya",
+	"telephone": ["+254-20-3753416/7/8/9","020-2430854/020-2430753","254-20-375-3420","0733333552","0722203074"],
+   "website": "https://www.pathcarekenya.com/"
+   },
+   {
+   	"name": "Private Hospitals",
+   	"description": "Most private hospitals perform the test",
+	  "postal_address" : null,
+	  "telephone" : null,
+     "website": null
+   }
+]
