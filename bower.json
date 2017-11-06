@@ -6,12 +6,37 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "~1.5.0",
     "angular-route": "~1.5.0",
     "angular-loader": "~1.5.0",
     "angular-mocks": "~1.5.0",
     "html5-boilerplate": "^5.3.0",
     "bootstrap": "^3.3.7",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "angular": "1.6.1",
+    "angular-confirm-modal": "^1.2.5",
+    "angular-form-validation": "^1.0.7",
+    "v-accordion": "^1.6.0",
+    "angular-toastr": "^2.1.1",
+    "angular-material": "^1.1.1",
+    "angular-bootstrap": "^2.1.4",
+    "angular-bootstrap-multiselect": "^0.4.0",
+    "angular-chart.js": "^1.0.3",
+    "chart.js": "^2.3.0",
+    "angular-xeditable": "^0.4.0",
+    "angular-animate": "^1.5.8",
+    "angularPrint": "angular-print#^0.3.8",
+    "angular-acl": "^0.1.7",
+    "ng-tags-input": "^3.1.1",
+    "angular-ui-router": "1.0.0-rc.1",
+    "ng-file-upload": "^12.2.13",
+    "angular-bootstrap-confirm": "^2.5.0",
+    "moment": "^2.17.1",
+    "magnific-popup": "^1.1.0",
+    "angular-scroll": "^1.0.0",
+    "angular-multi-step-form": "^1.3.0",
+    "angular-ladda": "^0.4.3"
+  },
+  "resolutions": {
+    "angular": ">=1.3.0"
   }
 }
