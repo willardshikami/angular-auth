@@ -1,0 +1,201 @@
+   <div class="modal-dialog" style="width: 100%">
+
+  <!-- Modal content-->
+  <div class="modal-content" style="border-radius: 0">
+    <div class="modal-header">
+      <button type="button" class="close close-search-modal" style="font-size: 35px" >&times;</button>
+      <h4 class="modal-title"><i class="fa fa-map-marker position-left"></i> Medical Services</h4>
+    </div>
+
+<style type="text/css">
+  .hx-modal-body {
+    max-height: calc(107vh - 210px);
+    overflow-y: auto;
+    font-family:'Roboto';
+    font-style:normal;
+    font-weight:900
+  }
+
+  .robot-font {
+    font-family:'Roboto';
+    font-style:normal;
+    font-weight:500;
+    letter-spacing: 1px;
+  }
+</style>
+
+
+    <div class="hx-modal-body modal-body">
+      <div class="row">
+
+
+
+        <div class="col-md-12">
+         <!--  <label>Search</label>
+         
+          <input typeahead-on-select = "vm.typeAheadSelectFacility($item, $model, $label, $event)" uib-typeahead="member as member.name for member in vm.searchFacility($viewValue)" class="form-control" typeahead-loading="loadingDrugs" typeahead-no-results="noResults" typeahead-is-open = "vm.typeaheadOpen" typeahead-show-hint="true" typeahead-min-length="1" type="text" ng-model="vm.facilitySearchData" class="form-control" placeholder="Filter results" aria-invalid="false" style="">
+
+          <i ng-show="loadingDrugs" class="glyphicon glyphicon-refresh"></i>
+          <div ng-show="noResults">
+            <i class="glyphicon glyphicon-remove"></i> No Results Found
+          </div> -->
+
+      
+
+          <div>
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#evacuation" aria-controls="evacuation" role="tab" data-toggle="tab">Evacuation/Transport</a></li>
+              <li role="presentation"><a href="#laboratories" aria-controls="laboratories" role="tab" data-toggle="tab">Laboratories</a></li>
+              <li role="presentation"><a href="#imaging" aria-controls="imaging" role="tab" data-toggle="tab">Imaging</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="evacuation">
+                <table class="table hx-table robot-font">
+                  <thead>
+                    <tr>
+                      <td class="col-md-2">Name</td>
+                <!--       <td class="col-md-1">Location</td>
+                      <td class="col-md-2">Physical address</td> -->
+                      <td class="col-md-3">Phone</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr ng-repeat = "item in vm.evacuation | orderBy:'name' ">
+                      <td>
+                        <a>{{item.name}}</a>
+                      </td>
+                      <!-- <td>
+                       {{item.city}}
+                      </td>
+                      <td>
+                        {{item.physical_address}} -->
+                      </td>
+                      <td>
+                        {{item.tel1}}<br ng-if ="item.tel2" />
+                        {{item.tel2}}
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="laboratories">
+                <table class="table hx-table robot-font">
+                  <thead>
+                    <tr>
+                      <td class="col-md-3">Name</td>
+                      <td class="col-md-1">Location</td>
+                      <td class="col-md-3">Physical address</td>
+                      <td class="col-md-3">Phone</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr ng-repeat = "item in vm.labs | orderBy:'name' ">
+                      <td>
+                        <a>{{item.name}}</a>
+                      </td>
+                      <td>
+                        {{item.city}}
+                      </td>
+                      <td>
+                        {{item.physical_address}}
+                      </td>
+                      <td>
+                        {{item.tel1}}<br ng-if ="item.tel2" />
+                        {{item.tel2}}
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="imaging">
+                <table class="table hx-table robot-font">
+                  <thead>
+                    <tr>
+                      <td class="col-md-3">Name</td>
+                      <td class="col-md-1">Location</td>
+                      <td class="col-md-3">Physical address</td>
+                      <td class="col-md-3">Phone</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr ng-repeat = "item in vm.imaging | orderBy:'name' ">
+                      <td>
+                        <a>{{item.name}}</a>
+                      </td>
+                      <td>
+                       {{item.city}}
+                      </td>
+                      <td>
+                        {{item.physical_address}}
+                      </td>
+                      <td>
+                       {{item.tel1}}<br ng-if ="item.tel2" />
+                        {{item.tel2}}
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+
+          
+        </div>
+
+
+
+      </div> <!-- end of row -->
+
+      <!-- div class="row" ng-if = "vm.facilityResult">
+        <h4 style="margin-left: 16px;margin-bottom:10px;margin-top: 18px;">{{vm.facilitySearchData.name}}</h4>
+        <div class="col-md-6">
+
+          <table class="table ">
+            <tr>
+              <td>Location</td>
+              <td>{{vm.facilitySearchData.physical_address}}</td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td>{{vm.facilitySearchData['branch type']}}</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>{{vm.facilitySearchData.postal_address}}</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="col-md-2" ng-if = "vm.facilitySearchData.name && !vm.typeaheadOpen">
+         <button type="button" style="margin-bottom: 5px" ng-disabled = "!vm.facilitySearchData.name" class="btn btn-primary hx-button" >BOOK APPOINTMENT</button><br/> 
+         <button type="button" style="margin-bottom: 5px" ng-disabled = "!vm.facilitySearchData.name" class="btn btn-success hx-button" >UPDATE INFORMATION</button>  <br/>
+         <button type="button" ng-disabled = "!vm.facilitySearchData.name" class="btn btn-danger hx-button" >REPORT</button>  
+       </div>
+
+     </div> -->
+
+          <!-- <div class="row"  style="margin-top: 10px">
+            <div class="col-md-3" style="">
+              <button type="button" ng-disabled = "!vm.facilitySearchData.name" class="btn btn-primary hx-button" >BOOK APPOINTMENT</button>  
+            </div>
+            <div class="col-md-3" style="width: 23%;">
+              <button type="button" ng-disabled = "!vm.facilitySearchData.name" class="btn btn-success hx-button" >UPDATE INFORMATION</button>  
+            </div>
+            <div class="col-md-3" style="">
+              <button type="button" ng-disabled = "!vm.facilitySearchData.name" class="btn btn-danger hx-button" >REPORT</button>  
+            </div>
+          </div> -->
+
+        </div>
+
+
+
+      
+      </div>
+
+    </div>

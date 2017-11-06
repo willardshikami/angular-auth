@@ -1,0 +1,132 @@
+   <div class="modal-dialog" style="width: 100%">
+
+  <!-- Modal content-->
+  <div class="modal-content" style="border-radius: 0">
+    <div class="modal-header">
+      <button type="button" class="close close-search-modal" style="font-size: 35px" >&times;</button>
+      <h4 class="modal-title"><i class="fa fa-map-marker position-left"></i> DNA Centers</h4>
+    </div>
+
+<style type="text/css">
+  .hx-modal-body-dna {
+    max-height: calc(107vh - 210px);
+    overflow-y: auto;
+    font-family:'Roboto';
+    font-style:normal;
+    font-weight:400
+  }
+</style>
+
+
+    <div class="modal-body hx-modal-body-dna">
+      <div class="row">
+
+      <style type="text/css">
+        
+      </style>
+
+        <div class="col-md-12">
+          <!-- <label>Search</label>
+          
+          <input typeahead-on-select = "vm.typeAheadSelectFacility($item, $model, $label, $event)" uib-typeahead="member as member.name for member in vm.searchFacility($viewValue)" class="form-control" typeahead-loading="loadingDrugs" typeahead-no-results="noResults" typeahead-is-open = "vm.typeaheadOpen" typeahead-show-hint="true" typeahead-min-length="1" type="text" ng-model="vm.facilitySearchData" class="form-control" placeholder="Filter results" aria-invalid="false" style="">
+
+          <i ng-show="loadingDrugs" class="glyphicon glyphicon-refresh"></i>
+          <div ng-show="noResults">
+            <i class="glyphicon glyphicon-remove"></i> No Results Found
+          </div> -->
+
+          <!-- <table class="table">
+            <thead>
+              <tr>
+                <td>Name</td>
+                <td>Location</td>
+                <td>Phone</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat = "item in vm.emergency_services">
+                <td>
+                  {{item.name}}
+                </td>
+                <td>
+                  {{item.location}}
+                </td>
+                <td>
+                  {{item.phone}}
+                </td>
+              </tr>
+            </tbody>
+          </table> -->
+          <ul class="nav nav-stacked" id="accordion1">
+            <!-- <li class="panel"> <a data-toggle="collapse" data-parent="#accordion1" href="#firstLink">Test12</a>
+
+              <ul id="firstLink" class="collapse">
+                <li>SubTest1</li>
+                <li>SubTest1</li>
+                <li>SubTest1</li>
+              </ul>
+              
+            </li> -->
+            <li ng-repeat = "item in vm.dna_test_centers | orderBy:'name'" class="panel"> <a data-toggle="collapse" data-parent="#accordion1" href="#{{$index}}">{{item.name}}</a>
+
+              <div style="margin-left: 35px;line-height: 1.9em;" id="{{$index}}" ng-class="{'in': $first, 'collapse': !$first}">
+                {{item.description}} <a style="font-size: 13px" href="{{item.website}}" target="_blank" ng-if="item.website"><i class="fa fa-globe" class="position-left" aria-hidden="true"></i> Visit website</a>
+
+              </div>
+            </li>
+          </ul>
+
+        </div>
+
+
+
+      </div> <!-- end of row -->
+
+    <!--   <div class="row" ng-if = "vm.facilityResult">
+        <h4 style="margin-left: 16px;margin-bottom:10px;margin-top: 18px;">{{vm.facilitySearchData.name}}</h4>
+        <div class="col-md-6">
+
+          <table class="table ">
+            <tr>
+              <td>Location</td>
+              <td>{{vm.facilitySearchData.physical_address}}</td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td>{{vm.facilitySearchData['branch type']}}</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>{{vm.facilitySearchData.postal_address}}</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="col-md-2" ng-if = "vm.facilitySearchData.name && !vm.typeaheadOpen">
+         <button type="button" style="margin-bottom: 5px" ng-disabled = "!vm.facilitySearchData.name" class="btn btn-primary hx-button" >BOOK APPOINTMENT</button><br/> 
+         <button type="button" style="margin-bottom: 5px" ng-disabled = "!vm.facilitySearchData.name" class="btn btn-success hx-button" >UPDATE INFORMATION</button>  <br/>
+         <button type="button" ng-disabled = "!vm.facilitySearchData.name" class="btn btn-danger hx-button" >REPORT</button>  
+       </div>
+
+     </div> -->
+
+          <!-- <div class="row"  style="margin-top: 10px">
+            <div class="col-md-3" style="">
+              <button type="button" ng-disabled = "!vm.facilitySearchData.name" class="btn btn-primary hx-button" >BOOK APPOINTMENT</button>  
+            </div>
+            <div class="col-md-3" style="width: 23%;">
+              <button type="button" ng-disabled = "!vm.facilitySearchData.name" class="btn btn-success hx-button" >UPDATE INFORMATION</button>  
+            </div>
+            <div class="col-md-3" style="">
+              <button type="button" ng-disabled = "!vm.facilitySearchData.name" class="btn btn-danger hx-button" >REPORT</button>  
+            </div>
+          </div> -->
+
+        </div>
+
+
+
+        
+      </div>
+
+    </div>
