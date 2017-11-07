@@ -94,6 +94,10 @@ a:focus {
 	font-family: 'Averta', sans-serif;
 }
 
+.navbar-nav li a:hover{
+    color:#6FB048 !important;
+}
+
 .menu-scroll .main_menu .navbar-nav > li > a:hover {
     color:#6FB048;
 }
