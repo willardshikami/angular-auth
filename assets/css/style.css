@@ -212,12 +212,14 @@ HERO image and content
     color:#ffffff;
     font-size: 50px;
     font-weight: 900;
+    text-shadow: 1px 1px #444444;
 }
 
 .hero_content p{
     color:#ffffff;	
     font-size: 20px;
     line-height: 30px;
+    text-shadow: 1px 1px #444444;
 }
 
 /*
