@@ -1,6 +1,6 @@
-var healthixSite = angular.module('healthixSite', ['ngRoute']);
+var app = angular.module('healthixSite', ['ngRoute', 'angularModalService']);
 
-healthixSite.config(function($routeProvider) {
+app.config(function($routeProvider, $stateProvider, ngRoute, ModalService) {
     $routeProvider.when('/', {
         controller: 'healthixController',
         templateUrl: 'templates/home.template.html'

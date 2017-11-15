@@ -1,5 +1,8 @@
-angular.module('healthixSite')
-    healthixSite.controller('healthixController', ['$scope', '$http', '$location', '$routeParams',function($scope, $http, $location, $routeParams) {
-        
-    }]);
+var app = angular.module('healthixSite');
+
+app.controller('healthixController', ['$scope', '$http', '$stateParams', '$location', '$routeParams', '$element', 'title', 'close', 
+function($scope, $http, $stateParams, $location, $routeParams, $element, title, close){
+
     
+
+}]);
