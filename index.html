@@ -1,118 +1,392 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="healthixSite" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> 
-<html lang="en" ng-app="healthixSite" class="no-js"> <!--<![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Healthix</title>
-    <meta name="description" content="The Healthix Website" />
-    <meta name="og:title" content="The Healthix Website" />
-    <meta name="og:type" content="website" />
-    <meta name="og:description" content="More Information about our products" />
-    <meta name="og:url" content="https://www.healthixsolutions.com" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/flexslider.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Healthix</title>
+	<meta name="description" content="The Healthix Website" />
+	<meta name="og:title" content="The Healthix Website" />
+	<meta name="og:type" content="website" />
+	<meta name="og:description" content="Our Website with more Information about our product" />
+	<meta name="og:url" content="https://www.healthixsolutions.com" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="stylesheet" href="assets/fonts/stylesheet.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/flexslider.css">
+	<link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+	<link rel="stylesheet" href="assets/css/animate.min.css">
+	<!--Custom css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!--Responsive css-->
+	<link rel="stylesheet" href="assets/css/responsive.css" />
+	<!--Icons-->
+	<link rel="sylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Modenizr css-->
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
-    <!--Custom css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--Responsive css-->
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-    <!--Icons-->
-    <link rel="sylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+<![endif]-->
 
-    <!-- Favicons -->
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
 	<link rel="apple-touch-icon" sizes="32x32" href="assets/img/favicon-32x32.png" type="image/jpg">
 	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon.png" type="image/jpg">
 	<link rel="icon" href="assets/img/favicon.png" type="image/jpg">
 
 	<!-- Made by Healthix http://healthixsolutions.com -->
+
 </head>
+
 <body>
+	<div class='preloader'>
+		<div class='loaded'>&nbsp;</div>
+	</div>
+	<header id="header" class="navbar-fixed-top">
+		<div class="">
+			<div class="main_menu wow fadeInDown" data-wow-duration="2s">
 
-<header id="header" class="navbar-fixed-top">
-        <div class="">
-          <div class="main_menu wow fadeInDown" data-wow-duration="2s">
-      
-            <nav class="navbar navbar-default" role="navigation">
-              <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand navbar-brand-left" href="#">
-                    <img src="../assets/img/healthix_logo.png" alt="Logo">
-                  </a>
-                </div>
-      
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-brand-centered">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li>
-                      <a href="#how-it-works">How it works</a>
-                    </li>
-                    <li>
-                      <a href="#about-us">About Us</a>
-                    </li>
-                    <li>
-                      <a href="#why-healthix">Why Healthix</a>
-                    </li>
-                    <li>
-                      <a href="#our-partners">Our Partners</a>
-                    </li>
-                    <li>
-                      <a href="#contactus">Contact Us</a>
-                    </li>
-                    <li>
-                      <a class="signin" href="signin.html">Sign In</a>
-                    </li>
-                    <li>
-                      <a class="signup" href="signup.html">Sign Up</a>
-                    </li>
-                  </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-              </div>
-              <!-- /.container-fluid -->
-            </nav>
-          </div>
-        </div>
-      </header>
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand navbar-brand-left" href="#">
+								<img src="./assets/img/healthix_logo.png" alt="Logo">
+							</a>
+						</div>
 
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="navbar-brand-centered">
+							<ul class="nav navbar-nav navbar-right">
+								<li>
+									<a href="#">How it works</a>
+								</li>
+								<li>
+									<a href="#">About Us</a>
+								</li>
+								<li>
+									<a href="#">Why Healthix</a>
+								</li>
+								<li>
+									<a href="#">Our Partners</a>
+								</li>
+								<li>
+									<a href="#">Contact Us</a>
+								</li>
+								<li>
+									<a class="signin" href="signin.html">Sign In</a>
+								</li>
+								<li>
+									<a class="signup" href="signup.html">Sign Up</a>
+								</li>
+							</ul>
+						</div>
+						<!-- /.navbar-collapse -->
+					</div>
+					<!-- /.container-fluid -->
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!--Home page style-->
 
-  <div ng-view></div>
+	<!-- Sections -->
+	<section id="hero" class="">
+		<div class="hero_overlay">
+			<div class="container">
+				<div class="hero_content">
+					<h2>Connecting Healthcare Players</h2>
+					<p>Our simple, stress-free platform connects the different Healthcare players to ease business processes.</p>
+					<div class="hero-btn">
+						<a href="" class="btn btn-md">Learn More</a>
+					</div>
+				</div>
+			</div>
+			<!-- /container -->
+		</div>
+	</section>
+	<!--services-->
+	<section class="services">
+		<div class="container">
+		<div class="row menu">
+			<div class="service-item col-md-3">
+				<a href="">
+				<h4 class="service-item-header"><span><img src="assets/img/icons/findadoc.svg" alt="Find a Doc">	&#x20; </span>Find a Doctor</h4>
+				<p>Ensure your Doctor is genuine and registered</p>
+				</a>
+			</div>
 
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-  -->
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="app.module.js"></script>
-  <script src="app.controller.js"></script>
+			<div class="service-item col-md-3">
+				<a href="">
+				<h4 class="service-item-header"><span><img src="assets/img/icons/nearestfacility.svg" alt="Nearest Facility"> &#x20; </span>Nearest Facility</h4>
+				<p>Find the nearest health facility</p>
+				</a>
+			</div>
+
+			<!-- Add the extra clearfix for only the required viewport -->
+			<div class="clearfix visible-xs-block"></div>
+
+			<div class="service-item col-md-3">
+				<a href="">
+				<h4 class="service-item-header"><span><img src="assets/img/icons/dnacenters.svg" alt="DNA Centers"> &#x20; </span>DNA Centers</h4>
+				<p>View DNA Centers in Kenya</p>
+				</a>
+			</div>
+
+			<div class="col-md-3">
+				<a href="">
+				<h4><span><img src="assets/img/icons/medicalservices.svg" alt="Medical Services"> &#x20; </span>Medical Services</h4>
+				<p>Search for Medical Services in Kenya</p>
+				</a>
+			</div>
+
+		</div>
+		</div>
+	</section>
+	<!--end of services-->
+
+	<!--How it works-->
+	<section id="how-it-works" class="container">
+		<h2>How it works</h2>
+		<p>We have designed and developed seamless and stress free tech platform connecting Insurance, Hospitals, Doctors, Nurses,
+			Pharmacists, to better communicate, exchange info, make payments and serve their clientele.</p>
+	</section>
+
+	<section class="container products">
+		<div class="row" style="padding-bottom: 30px">
+			<div class="col-md-4 content">
+				<img src="assets/img/icons/eclaims.svg" alt="">
+				<h4>eClaim Management</h4>
+				<hr align="left" class="product-line">
+				<p>e-Claim submissions on time and reduced rejection rates are key to payers and providers.</p>
+				<a class="product-btn" href="">Learn More <i class="fa fa-arrow-right fa-3x" aria-hidden="true"></i>
+				</a>
+			</div>
+
+			<div class="col-md-4 content">
+				<img src="assets/img/icons/insurecheck.svg" alt="">
+				<h4>InsureCheck</h4>
+				<hr align="left" class="product-line">
+				<p>See all member and beneficiary information online without making many calls to the Insurance companies.</p>
+				<a class="product-btn" href="">Learn More <i class="fa fa-arrow-right fa-3x" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="col-md-4 content">
+				<img src="assets/img/icons/enrollment.svg" alt="">
+				<h4>Member eEnrollment</h4>
+				<hr align="left" class="product-line">
+				<p>Use the platform to sign up all members details, photos, records without any ink and paper.</p>
+				<a class="product-btn" href="">Learn More <i class="fa fa-arrow-right fa-3x" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+		<div class="row" style="padding-bottom: 30px">
+			<div class="col-md-4 content">
+				<img src="assets/img/icons/prescription.svg" alt="">
+				<h4>ePrescription</h4>
+				<hr align="left" class="product-line">
+				<p>No more paper prescriptions even for refills. Give all patients electronic prescriptions.</p>
+				<a class="product-btn" href="">Learn More <i class="fa fa-arrow-right fa-3x" aria-hidden="true"></i></a>
+			</div>
+			<div class="col-md-4 content">
+				<img src="assets/img/icons/authletter.svg" alt="">
+				<h4>eAuthorisation Letter</h4>
+				<hr align="left" class="product-line">
+				<p>Automate the pre-auth processes. No more telephone calls to providers.</p>
+				<a class="product-btn" href="">Learn More <i class="fa fa-arrow-right fa-3x" aria-hidden="true"></i></a>
+			</div>
+			<div class="col-md-4 content">
+				<img src="assets/img/icons/biometric.svg" alt="">
+				<h4>Biometric Authorisation</h4>
+				<hr align="left" class="product-line">
+				<p>Positive identification of individuals is a very vital requirement in the insurance world and especially the medical health field. </p>
+				<a class="product-btn" href="">Learn More <i class="fa fa-arrow-right fa-3x" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+		<div class="row" style="padding-bottom: 30px">
+			<div class="col-md-4 content">
+				<img src="assets/img/icons/terminology.svg" alt="">
+				<h4>Terminology Coding</h4>
+				<hr align="left" class="product-line">
+				<p>Terminology servers support data standardization and interoperability in Electronic Medical Records systems.</p>
+				<a class="product-btn" href="">Learn More <i class="fa fa-arrow-right fa-3x" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+	</section>
+	<!--End of How it works-->
+
+	<!--About us-->
+	<section id="about-us" class="about-us">
+		<div class="container row">
+			<div class="col-md-6">
+				<img src="assets/img/about.png" alt="about">
+			</div>
+			<div class="col-md-6">
+				<h2>About</h2>
+				<h4>healthcare ecosystem</h4>
+				<hr align="left" class="about-line">
+				<p>Healthix Solutions is a healthcare technology business working to enable a vibrant Healthcare Ecosystem - connecting Patients, Payers, Providers, Pharmaceutical companies, Governments and other stakeholders with a focus to improve patient care. 
+					
+					Healthix platform is a shared exchange - seamless exchange services between all healthcare players in the Healthcare Ecosystem - platform that connects once siloed/stand-alone services into integrated networks. 
+					
+					Our connected platform provides more value to the different stakeholders especially in the roadmap to achieving their digital strategy. 
+					</p>
+			</div>
+		</div>
+	</section>
+	<!--End of About us-->
+
+	<!-- Testimonials section -->
+<section id="testimonials" class="section testimonials no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <p>RESOURCE SHARING</p>
+
+                <h1>Allows resource sharing amongst the healthcare players without increasing their costs.</h1>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                  <p>SIMPLE TOOLS</p>
+                  
+                  <h1>Provides simple tools to providers to upload information to the payers.</h1>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                  <p>TRAINING AND DEVELOPMENT</p>
+                  
+                  <h1>Enables training and development to personnel in provider and payer institutions.</h1>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                  <p>CONNECTIVITY & ACCESS</p>
+                  
+                  <h1>Provides connectivity & access for payers and providers in the Healthcare ecosystem.</h1>
+              </blockquote>
+            </div>
+					</li>
+					<li>
+            <div class="col-md-12">
+              <blockquote>
+                  <p>PATIENT MANAGEMENT</p>
+                  
+                  <h1>Provides better patient management for the providers; patient validation tools are available to them</h1>
+              </blockquote>
+            </div>
+					</li>
+					<li>
+            <div class="col-md-12">
+              <blockquote>
+                  <p>ONLINE CLAIM TOOL</p>
+                  
+                  <h1>Is a robust online claim reconciliation tool with payment enabled.</h1>
+              </blockquote>
+            </div>
+					</li>
+					<li>
+            <div class="col-md-12">
+              <blockquote>
+                  <p>REDUCED COSTS</p>
+                  
+                  <h1>Reduces on the operational costs to payer and provider institutions.</h1>
+              </blockquote>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Testimonials section --> 
+
+	<!--pre footer-->
+	<section class="pre-footer">
+		<div style="max-width: 1080px;" class="container">
+			<div class="row menu">
+					<div class="col-md-3">
+						<h4>Company</h4>
+						<ul>
+							<li><a href="">About Us</a></li>
+							<li><a href="">Careers</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4>Product</h4>
+						<ul>
+							<li><a href="">eClaims</a></li>
+							<li><a href="">Insurecheck</a></li>
+							<li><a href="">Member eEnrollment</a></li>
+						</ul>
+					</div>
+		
+					<!-- Add the extra clearfix for only the required viewport -->
+					<div class="clearfix visible-xs-block"></div>
+		
+					<div class="col-md-3">
+						<h4>Solutions</h4>
+						<ul>
+							<li><a href="">ePrescription</a></li>
+							<li><a href="">eAuthorisation Letter</a></li>
+							<li><a href="">Biometric Authorisation</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4>Extras</h4>
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+	</section>
+	<!--End of pre-footer-->
+
+	<!--Footer-->
+	<footer id="footer" class="">
+		<div class="container">
+			<div class="copyright">
+				<small class="wow zoomIn" data-wow-duration="1s"> Copyright &copy; 2017 Healthix Solutions. All Rights Reserved</small>
+			</div>
+		</div>
+		<!-- End footer bottom -->
+	</footer>
+
+
+	<script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.min.js"></script>
 	<script src="assets/js/jquery.easing.1.3.js"></script>
 	<script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/jquery.flexslider-min.js"></script> 
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/scrollto.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-  <script src="bower_components/angular-modal-service/dst/angular-modal-service.min.js"></script>  
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
+
 </html>
